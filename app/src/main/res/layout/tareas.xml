@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/cielo">
+
+        <ImageButton
+            android:id="@+id/btmenu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:src="@mipmap/menu"/>
+
+        <ImageButton
+            android:id="@+id/btmas"
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="190dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:src="@mipmap/mas"/>
+
+        <ImageButton
+            android:id="@+id/btmenos"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="3dp"
+            android:src="@mipmap/menos"/>
+
+        <ImageButton
+            android:id="@+id/botonEdit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="3dp"
+            android:src="@mipmap/editar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"
+        android:background="@color/cielo">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAREA: "
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"
+        android:background="@color/cielo">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAREA: "
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"
+        android:background="@color/cielo">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAREA: "
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"
+        android:background="@color/cielo">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAREA: "
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="-630dp"
+        android:layout_marginLeft="220dp"
+        android:padding="8dp"
+        android:background="@color/cielo">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAREA: "
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="220dp"
+        android:padding="8dp"
+        android:background="@color/cielo">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAREA: "
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="220dp"
+        android:padding="8dp"
+        android:background="@color/cielo">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAREA: "
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="220dp"
+        android:padding="8dp"
+        android:background="@color/cielo">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAREA: "
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

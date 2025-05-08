@@ -1,0 +1,226 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/cielo">
+
+        <ImageButton
+            android:id="@+id/btnedit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="4dp"
+            android:src="@mipmap/editar"/>
+
+        <ImageButton
+            android:id="@+id/btncalen"
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:src="@mipmap/calendario"/>
+
+        <ImageButton
+            android:id="@+id/btnNot"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="3dp"
+            android:src="@mipmap/nota"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/azul"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CALENDARIO SEMANAL"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/calendar_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+
+            <TableRow>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text="LUNES"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text="MARTES"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text="MIERCOLES"
+                    android:textSize="11dp"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text="JUEVES"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text="VIERNES"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView android:text="08:00"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="09:30"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="11:00"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""     android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    />
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="12:30"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+                <TextView android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
